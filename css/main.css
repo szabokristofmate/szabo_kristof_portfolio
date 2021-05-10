@@ -1,0 +1,111 @@
+body{
+	background-color: #2b2c2e;
+	padding: 0px;
+		margin: 0px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	}
+body h2{
+	font-size: 1.5rem;
+	font-weight: 900;
+	color: white;
+	text-align: center;
+}
+
+.fejlec{
+		padding: 0;
+		margin: 0;
+
+		}
+.gomb{
+	text-align: center;
+	font-size: 1rem;
+	font-weight: 900;
+	
+	background-color: black;
+	display: inline-block;
+	padding: 20px;
+	margin: 0px;	
+	transition: .5s;
+	min-width: max-content;
+}
+.navisav{
+	background-color: black;
+	display: block;
+	padding: 0.2rem 1rem;
+	margin: 0;
+}
+
+
+.grid{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+	box-sizing: border-box;
+	grid-gap: 0;
+	margin: 3rem 10%;
+	color: gray;
+}
+
+
+.kartya{
+		display: block;
+		background-color: #a8a8a8;
+		border: 2px solid black;
+		padding: 1rem;
+}
+
+.kartya h1{
+	font-size: 2rem;
+	font-weight: 900;
+	color: black;
+}
+
+.kartya h2{
+	font-size: 1.5rem;
+	font-weight: 900;
+	color: black;
+	text-align: left;
+}
+.kartya p{
+	color: black;
+	margin: 0px;
+}
+
+.kartya img{
+	border-radius: 0.5rem;
+	min-width: 10%;
+
+}
+.gomb:hover{
+	cursor: pointer;
+	background-color: white;
+}
+.grid1{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+	box-sizing: border-box;
+	grid-gap: 1.5rem;
+	margin: 3rem 10%;
+}
+.kartya2{
+		display: block;
+		background-color: #a8a8a8;
+		border-radius: .5rem;
+		padding: 1rem;
+		}
+.kartya2 img{
+	border-radius: 0.5rem;
+	min-width: 10%;
+	max-width: 100%;
+}
+.kartya2 img:hover{
+	cursor: pointer;
+	border: 2px solid black;
+	transition: .2s;
+}
+img{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	max-width: 80%;
+}
